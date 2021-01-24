@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height.     
+  
+  box-sizing  always use in universal operator 
+  har div ki width height me diffrence aajata hai
+  */
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #eaecf8 !important;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  /* bich se space */
+  align-items: center;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_left > h1 {
+  color: #212121;
+}
+
+.nav_right > button {
+  padding: 10px 20px;
+  background: #634fa8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.left_wrap {
+  position: relative;
+  max-width: 700px;
+  width: 70%;
+}
+.left_wrap h1 {
+  font-size: 3em;
+  color: #000;
+  font-weight: 700;
+  margin-top: 20%;
+  padding: 20px 100px;
+  display: inline-block;
+}
+* .left_wrap p {
+  padding: 10px 100px;
+  margin-bottom: 50px;
+  display: inline-block;
+  color: gray;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  height: 100%;
+  right: 0px;
+}
+
+.form_box {
+  position: relative;
+  left: 100px;
+  width: 500px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form_box > input {
+  border: 0px;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.form_box .submit {
+  position: absolute;
+  background-color: #634fa8;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+.footer {
+  position: relative;
+  margin-top: 50px;
+  padding: 0px 100px;
+}
+.footer > h2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.social_links img {
+  width: 30px;
+  margin: 0 10px;
+}
