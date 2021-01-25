@@ -55,15 +55,13 @@ body {
   max-width: 700px;
   width: 70%;
 }
-.left_wrap h1 {
+.left_info h1 {
   font-size: 3em;
   color: #000;
   font-weight: 700;
   margin-top: 20%;
-
-  display: inline-block;
 }
-* .left_wrap p {
+ .left_info p {
   margin-top: 50px;
   margin-bottom: 50px;
   color: gray;
