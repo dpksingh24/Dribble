@@ -17,13 +17,11 @@ body {
   overflow: hidden;
 }
 .container {
-  position: relative;
-  width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: space-between;
-  /* bich se space */
   align-items: center;
+  padding: 0px 100px;
 }
 .nav {
   position: absolute;
@@ -58,26 +56,25 @@ body {
   color: #000;
   font-weight: 700;
   margin-top: 20%;
-  padding: 20px 100px;
+
   display: inline-block;
 }
 * .left_wrap p {
-  padding: 10px 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   display: inline-block;
   color: gray;
 }
 
 .logo {
-     z-index: -1;
-    position: absolute;
-    top: 50px;
-    height: 100%;
-    right: 100px;
+  z-index: -1;
+  position: absolute;
+  top: 50px;
+  height: 100%;
+  right: 100px;
 }
 
 .form_box {
-  position: relative;
   left: 100px;
   width: 500px;
   background: #fff;
@@ -106,13 +103,12 @@ placeholder {
 .footer {
   position: relative;
   margin-top: 50px;
-  padding: 0px 100px;
 }
 .footer > h2 {
   font-size: 16px;
   padding-bottom: 10px;
 }
 .social_links img {
-  width: 30px;
-  margin: 0 10px;
+  width: 28px;
+  margin: 0 5px;
 }
