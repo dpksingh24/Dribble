@@ -66,7 +66,6 @@ body {
 * .left_wrap p {
   margin-top: 50px;
   margin-bottom: 50px;
-  display: inline-block;
   color: gray;
 }
 
