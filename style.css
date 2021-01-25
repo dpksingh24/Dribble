@@ -90,9 +90,9 @@ body {
 }
 
 input:focus,
-textarea:focus,
-select:focus {
+placeholder {
   outline: none;
+  color: #212121;
 }
 
 .form_box .submit {
